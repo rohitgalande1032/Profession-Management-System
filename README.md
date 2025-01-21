@@ -1,6 +1,8 @@
 Deploy Link - https://task7-profession-management-system.netlify.app/
 
-Evaluation Criteria
+
+Steps to must follow - 
+
 Part 1: User Interface
 Form Inputs: There should be three inputs for name, profession, and age.
 Add Employees Button: There should be a button to add employees.
