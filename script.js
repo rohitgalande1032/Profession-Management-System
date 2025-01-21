@@ -35,6 +35,10 @@ function addEmployee(event) {
 
   renderEmployee()
 
+  name = "";
+  email = "";
+  profession = "";
+
 
   console.log("Updated Array: ", arr);
 }
@@ -57,6 +61,11 @@ function renderEmployee() {
             </div>
         </div>
     `;
+
+    // Clear form inputs to add new user
+    inputName.value = "";
+    inputProfession.value = "";
+    inputAge.value = "";
     })
 }
 
