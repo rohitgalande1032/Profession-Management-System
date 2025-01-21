@@ -4,6 +4,8 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Verdana, sans-serif;
+    font-size: 14px;
 }
 
 main {
@@ -17,10 +19,54 @@ main {
     flex-wrap: wrap;
 }
 
+input {
+    width: 300px;
+    padding: 10px 0px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin: 10px 0;
+}
 #btn {
     padding: 10px 40px;
     background-color: white;
     color: black;
     cursor: pointer;
     margin: 20px 0;
+}
+
+.employee-list {
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+    flex-direction: column;
+    margin: 20px 0px;
+}
+
+.employee-detail {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0px;
+}
+.employee {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.employee>p {
+    padding: 0px 15px;
+}
+
+#btn2 {
+    padding: 10px 30px;
+    border-style: none;
+    border-radius: 50px;
+    margin: 0 20px;
+}
+
+#message {
+    color: red;
 }

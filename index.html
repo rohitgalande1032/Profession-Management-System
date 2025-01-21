@@ -7,9 +7,11 @@
     <title>Profession Management System</title>
 </head>
 <body>
+<!-- Part 1: User Interface -->
+    <!-- Step 1: Create a simple form with three inputs: name, profession, and age. All fields are required. -->
     <main>
         <form>
-            <h1>New Employee</h1>
+            <h2>New Employees</h2>
 
             <div class="form-group">
                 <div class="name">
@@ -28,14 +30,14 @@
             <button type="submit" id="btn">Add User</button>
 
             <div>
-                <span class="error success" id="message"></span>
+                <span id="message"></span>
             </div>
 
-            <div class="employee-list">
-                <h6>Added Employee</h6>
-                <p>Name : </p>
-                <p>Profession : </p>
-                <p>Age: </p>
+
+            <!--Step:2 Display a default view with 0 added employees. -->
+            <div class="employee-list" id="employee-list">
+                <h3>Added Employees</h3>
+                
             </div>
             
         </form>
